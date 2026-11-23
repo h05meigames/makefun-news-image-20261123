@@ -15,8 +15,9 @@
 // for the sources each story was verified against.
 //
 // Determinism: entry.png is a fixed asset in this repository, so both
-// grader runs copy identical bytes. Verified locally by running main.ts
-// three times and comparing sha256 (see HANDOFF.md). The committed
+// grader runs copy identical bytes. Verified locally 23 Nov 2026 by
+// running the render script 3x and main.ts 3x and comparing sha256
+// (see HANDOFF.md): all six runs wrote identical bytes. The committed
 // entry.png is 148,516 bytes with sha256
 // 0aac5fc5532a0979eea2a4ed2bc8c0b3029b31ce2a8c821d03aac04fa22a3d56.
 //
